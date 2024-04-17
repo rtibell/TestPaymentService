@@ -40,7 +40,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: tibell/test-order-service:latest
+          tags: tibell/test-payment-service:latest
           platforms: linux/amd64,linux/arm64
 
       - name: Clean up
